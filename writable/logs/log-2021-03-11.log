@@ -1,0 +1,100 @@
+CRITICAL - 2021-03-11 02:20:35 --> syntax error, unexpected 'print_r' (T_STRING)
+#0 /storage/emulated/0/htdocs/system/Autoloader/Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->requireFile('/storage/emulat...')
+#1 /storage/emulated/0/htdocs/system/Autoloader/Autoloader.php(258): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 [internal function]: spl_autoload_call('App\\Controllers...')
+#4 /storage/emulated/0/htdocs/system/CodeIgniter.php(869): class_exists('\\App\\Controller...', true)
+#5 /storage/emulated/0/htdocs/system/CodeIgniter.php(394): CodeIgniter\CodeIgniter->startController()
+#6 /storage/emulated/0/htdocs/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /storage/emulated/0/htdocs/index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-03-11 02:21:08 --> syntax error, unexpected '$a' (T_VARIABLE)
+#0 /storage/emulated/0/htdocs/system/Autoloader/Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->requireFile('/storage/emulat...')
+#1 /storage/emulated/0/htdocs/system/Autoloader/Autoloader.php(258): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 [internal function]: spl_autoload_call('App\\Controllers...')
+#4 /storage/emulated/0/htdocs/system/CodeIgniter.php(869): class_exists('\\App\\Controller...', true)
+#5 /storage/emulated/0/htdocs/system/CodeIgniter.php(394): CodeIgniter\CodeIgniter->startController()
+#6 /storage/emulated/0/htdocs/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /storage/emulated/0/htdocs/index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-03-11 02:23:19 --> syntax error, unexpected 'while' (T_WHILE)
+#0 /storage/emulated/0/htdocs/system/Autoloader/Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->requireFile('/storage/emulat...')
+#1 /storage/emulated/0/htdocs/system/Autoloader/Autoloader.php(258): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 [internal function]: spl_autoload_call('App\\Controllers...')
+#4 /storage/emulated/0/htdocs/system/CodeIgniter.php(869): class_exists('\\App\\Controller...', true)
+#5 /storage/emulated/0/htdocs/system/CodeIgniter.php(394): CodeIgniter\CodeIgniter->startController()
+#6 /storage/emulated/0/htdocs/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /storage/emulated/0/htdocs/index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-03-11 02:29:57 --> unlink(hhh): Is a directory
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'unlink(hhh): Is...', '/storage/emulat...', 297, Array)
+#1 /storage/emulated/0/htdocs/app/Controllers/Post.php(297): unlink('hhh')
+#2 /storage/emulated/0/htdocs/system/CodeIgniter.php(918): App\Controllers\Post->f()
+#3 /storage/emulated/0/htdocs/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Post))
+#4 /storage/emulated/0/htdocs/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /storage/emulated/0/htdocs/index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-03-11 02:35:20 --> Call to undefined function App\Controllers\file_exist()
+#0 /storage/emulated/0/htdocs/system/CodeIgniter.php(918): App\Controllers\Post->f()
+#1 /storage/emulated/0/htdocs/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Post))
+#2 /storage/emulated/0/htdocs/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /storage/emulated/0/htdocs/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-03-11 03:09:50 --> date() expects at least 1 parameter, 0 given
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'date() expects ...', '/storage/emulat...', 297, Array)
+#1 /storage/emulated/0/htdocs/app/Controllers/Post.php(297): date()
+#2 /storage/emulated/0/htdocs/system/CodeIgniter.php(918): App\Controllers\Post->f()
+#3 /storage/emulated/0/htdocs/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Post))
+#4 /storage/emulated/0/htdocs/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /storage/emulated/0/htdocs/index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-03-11 03:09:59 --> date() expects at least 1 parameter, 0 given
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'date() expects ...', '/storage/emulat...', 297, Array)
+#1 /storage/emulated/0/htdocs/app/Controllers/Post.php(297): date()
+#2 /storage/emulated/0/htdocs/system/CodeIgniter.php(918): App\Controllers\Post->f()
+#3 /storage/emulated/0/htdocs/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Post))
+#4 /storage/emulated/0/htdocs/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /storage/emulated/0/htdocs/index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-03-11 03:23:36 --> date_default_timezone_set(): Timezone ID 'Nigeria/Lagos' is invalid
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(8, 'date_default_ti...', '/storage/emulat...', 296, Array)
+#1 /storage/emulated/0/htdocs/app/Controllers/Post.php(296): date_default_timezone_set('Nigeria/Lagos')
+#2 /storage/emulated/0/htdocs/system/CodeIgniter.php(918): App\Controllers\Post->f()
+#3 /storage/emulated/0/htdocs/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Post))
+#4 /storage/emulated/0/htdocs/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /storage/emulated/0/htdocs/index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-03-11 03:23:47 --> date_default_timezone_set(): Timezone ID 'Nigeria/lagos' is invalid
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(8, 'date_default_ti...', '/storage/emulat...', 296, Array)
+#1 /storage/emulated/0/htdocs/app/Controllers/Post.php(296): date_default_timezone_set('Nigeria/lagos')
+#2 /storage/emulated/0/htdocs/system/CodeIgniter.php(918): App\Controllers\Post->f()
+#3 /storage/emulated/0/htdocs/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Post))
+#4 /storage/emulated/0/htdocs/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /storage/emulated/0/htdocs/index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-03-11 03:23:55 --> date_default_timezone_set(): Timezone ID 'Nigeria/Abuja' is invalid
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(8, 'date_default_ti...', '/storage/emulat...', 296, Array)
+#1 /storage/emulated/0/htdocs/app/Controllers/Post.php(296): date_default_timezone_set('Nigeria/Abuja')
+#2 /storage/emulated/0/htdocs/system/CodeIgniter.php(918): App\Controllers\Post->f()
+#3 /storage/emulated/0/htdocs/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Post))
+#4 /storage/emulated/0/htdocs/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /storage/emulated/0/htdocs/index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-03-11 03:25:00 --> date_default_timezone_set(): Timezone ID 'Nigeria/Lagos' is invalid
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(8, 'date_default_ti...', '/storage/emulat...', 296, Array)
+#1 /storage/emulated/0/htdocs/app/Controllers/Post.php(296): date_default_timezone_set('Nigeria/Lagos')
+#2 /storage/emulated/0/htdocs/system/CodeIgniter.php(918): App\Controllers\Post->f()
+#3 /storage/emulated/0/htdocs/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Post))
+#4 /storage/emulated/0/htdocs/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /storage/emulated/0/htdocs/index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-03-11 03:25:26 --> date_default_timezone_set(): Timezone ID 'Africa/Abijan' is invalid
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(8, 'date_default_ti...', '/storage/emulat...', 296, Array)
+#1 /storage/emulated/0/htdocs/app/Controllers/Post.php(296): date_default_timezone_set('Africa/Abijan')
+#2 /storage/emulated/0/htdocs/system/CodeIgniter.php(918): App\Controllers\Post->f()
+#3 /storage/emulated/0/htdocs/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Post))
+#4 /storage/emulated/0/htdocs/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /storage/emulated/0/htdocs/index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}

@@ -1,0 +1,112 @@
+
+/* fab button in home.php */
+.fab{
+	position:fixed;
+	bottom:30px;
+	right:30px;
+	z-index:2;
+}
+
+
+body{
+	padding-bottom:70px;
+}
+
+/* parent div for each competition  */
+.compete{
+	position:relative;
+	margin-bottom:20px;
+	background:white;
+	background:white;
+	
+	border-bottom:4px solid grey;
+}
+
+.compete.turn-grey{
+	background:rgb(200,200,200,0.4);
+}
+
+.inner{
+
+}
+
+/* like button that is disabled when liked*/
+button.ra{
+	border-radius:20px;
+	padding:6px;
+	text-align:center;
+	color:grey;
+	width:30%;
+	display:block;
+	border:none;
+	background:rgb(200,200,200,.3);
+}
+
+
+.compete button:focus  {
+	outline:none;
+	
+}
+
+
+/* div that houses the 2 images */
+.imgs img{
+	height:300px;
+	min-width:50%;
+	object-fit:cover;
+	object-position:50% 50%;
+}
+
+.compete .vs{
+	position:absolute;
+	text-align:center;
+	display:block;
+	z-index:1;
+	font-size:25px;
+	right:0px;
+	left:0px;
+	background:lightgrey;
+}
+
+/* span inside the .vs div */
+.compete .vs span {
+	color:white;
+	padding:5px;
+	border-bottom-left-radius:50%;
+	border-bottom-right-radius:50%;
+	box-shadow:2px -2px lightblue;
+}
+
+/*  div that houses the 2 username*/
+.contest span{
+	z-index:10;
+	display:block;
+	text-align:center;
+	text-decoration:none;
+	padding:5px;
+	border-radius:5px;
+}
+
+
+/* submit comment in post/post.php embeded in spa */
+.comment-div {
+	width:100%;
+	position:fixed;
+	left:0px;
+	bottom:0px;
+	border-top:2px solid lightgrey;
+	background:white;
+	z-index:9999;
+}
+
+
+.comment-div textarea {
+	width:100%;
+	border:none;
+	padding:5px;
+	text-decoration:none;
+}
+
+.comment-div textarea:focus {
+	outline:none;
+}
