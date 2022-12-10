@@ -3,7 +3,7 @@
 
 This is a CodeIgniter web app that allows registered users to compare two photos and also create their own post.
 
-It is hosted at http://face-blast.epizy.com
+It is hosted at https://faceblast.mustapha.com.ng
 
 ## Features
 
